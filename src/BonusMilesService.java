@@ -1,8 +1,8 @@
 public class BonusMilesService{
-    public int calculate(int a) {
+    public int calculate(int price) {
         int result;
-        if (a >= 20) {
-            result = a/20;
+        if (price >= 20) {
+            result = price/20;
         } else {
             result = 0;
         }
